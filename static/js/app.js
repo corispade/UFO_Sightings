@@ -23,5 +23,28 @@ function buildTable(data) {
             }
         );
     });
-}
+};
+
+// function to handle actions after a click
+function handleClick() {
+    // use D3 to look for "datetime" id in HTML and grab that information using property("value")
+    let date = d3.select('#datetime').property('value');
+    // create a default filter to set the filtered data variable to our raw data
+    let filteredData = tableData;
+
+    // write if statement to check for a date, if present, return only the data with that date
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+
+    // Rebuild the table using fitered data. If no date was entered, then filteredData will just ber the original tableData
+    buildTable(filteredData);
+};
+
+// linking our code directly to the filter button. creating an HTML tag with 'filter-btn' to link to
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// call the function to build the final table
+buildTable(tableData);
+
 
