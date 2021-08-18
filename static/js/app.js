@@ -15,7 +15,7 @@ function buildTable(data) {
         let row = tbody.append('tr');
 
         // function to reference one object from ufo sightings, put value in datarow, one object per row
-        Object.values(datarow).forEach((val) => {
+        Object.values(dataRow).forEach((val) => {
             // append each value of the object ot a cell in the table
             let cell = row.append('td');
             // extracting only the text of the value from each object
