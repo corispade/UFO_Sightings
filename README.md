@@ -18,7 +18,7 @@ We created a webpage using HTML to display our UFO sightings article and a dynam
 ## Resources:
 Data Sources: [UFO Sightings Data](https://github.com/corispade/UFO_Sightings/blob/main/static/js/data.js)
 
-Versions: Python 3.7.6, HTML5/CSS, Bootstrap 5.1.0
+Languages: JavaScript, HTML5, CSS
 
 Environment: Visual Studio Code
 
@@ -40,10 +40,12 @@ In order to refresh the search table, scroll to the top of the page and click "U
 
 
 # Summary:
-One major drawback of this website is that the search table only shows static data from the past. I would create a separate webpage where people can input their own UFO sightings, then I could set up my webpage to pull the new data in order to keep my website up to date and relevant. 
+One major drawback of this website is that the search table only shows static data from the past. I would suggest to create a separate webpage where people can input their own UFO sightings, then we could setup our webpage to pull the new data in order to keep the website up to date and relevant. 
 
 Recommendations I have for further development:
 
 1. Move the refresh button to set it below the search table. It is difficult to find and a bit annoying to scroll to the top of the page just to refresh the table.
 
-2. The only country in the data provided is the US. Either find more data from outside the US, or remove the country filter as it is an unnecessary addition. 
+2. The US is the only country in the data provided. I would suggest to either find more data from outside the US, or remove the country filter as it is an unnecessary addition. 
+
+3. 
