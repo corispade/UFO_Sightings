@@ -11,9 +11,9 @@ We created a webpage using HTML to display our UFO sightings article and a dynam
 3. We used CSS file to add a background image and color
 
 ### Deliverable 1: Filter UFO sightings on multiple search criteria
-* Using JavaScript, we added dynamic search functions to filter the table for city, state, country and shape
-* We created functions that will filter the table data by the value entered in the search boxes
-* We used our HTML file to style the filter table and make it more visually appealing
+1. Using JavaScript, we added dynamic search functions to filter the table for city, state, country and shape
+2. We created functions that will filter the table data by the value entered in the search boxes
+3. We used our HTML file to style the filter table and make it more visually appealing
 
 ## Resources:
 Data Sources: [UFO Sightings Data](https://github.com/corispade/UFO_Sightings/blob/main/static/js/data.js)
@@ -24,7 +24,9 @@ Environment: Visual Studio Code
 
 # Webpage Results:
 
-When the webpage is opened, you first see a title, article and purpose of analysis: 
+When the webpage is opened, you first see a title, article and purpose of analysis. 
+
+![image](https://github.com/corispade/UFO_Sightings/blob/main/static/images/top_website.png)
 
 Scrolling down, you will come to the dynamic search table:
 * Using the search filters on the left, type in the value you would like to search
@@ -32,11 +34,15 @@ Scrolling down, you will come to the dynamic search table:
 * Press enter
 * View table changes on the left
 
-Before Search:
+Before Search Filters:
 
-After Search:
+![image](https://github.com/corispade/UFO_Sightings/blob/main/static/images/bottom_website.png)
 
-In order to refresh the search table, scroll to the top of the page and click "UFO Sightings" to refresh:
+After Search Filters:
+
+![image](https://github.com/corispade/UFO_Sightings/blob/main/static/images/bottom_website_filter.png)
+
+In order to refresh the search table, scroll to the top of the page and click "UFO Sightings" to refresh.
 
 
 # Summary:
